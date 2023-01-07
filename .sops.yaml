@@ -1,8 +1,8 @@
 keys:
-  - &florian 865E0BA2011DAEE1A83F895E2EEC4010A0299470
+  - &florian age1tg60ecscw9rd3mpztew8pqgej3dzx42p497yhad2w7j4ytdv0qyscgl79l
 
 creation_rules:
   - path_regex: secrets/[^/]+\.yaml$
     key_groups:
-      - pgp:
+      - age:
         - *florian
