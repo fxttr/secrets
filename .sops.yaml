@@ -1,0 +1,8 @@
+keys:
+  - &florian 865E0BA2011DAEE1A83F895E2EEC4010A0299470
+
+creation_rules:
+  - path_regex: secrets/[^/]+\.yaml$
+    key_groups:
+      - pgp:
+        - *florian
